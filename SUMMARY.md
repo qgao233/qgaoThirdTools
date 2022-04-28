@@ -6,6 +6,7 @@
    * [1 git 命令](chapter1/section1/index.md)
    * [2 git 远程](chapter1/section2/index.md)
    * [3 .gitignore](chapter1/section3/index.md)
+   * [4 git commit提交类型规范](chapter1/section4/index.md)
 * [2 gitbook篇](chapter2/index.md)
 * [3 maven篇]()
   * [1 Maven生命周期和插件的详细介绍](chapter3/section1/index.md)
