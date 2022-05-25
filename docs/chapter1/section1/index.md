@@ -99,7 +99,9 @@ revert 之后就可以把你的更改推送到远程仓库与别人分享啦。
 #### 3.2.2 revert两种commit
 
 * `revert 常规commit`：使用 `git revert [commit id]` 即可，git 会生成一个新的 commit，将指定的 commit 内容从当前分支上撤除。
+
 ---
+
 * `revert merge commit`：
 
 git 只能撤销合并分支中的其中一条分支，如果直接使用 `git revert [merge commit id]`，git将不知道到底要撤除哪一条分支上的内容修改，
