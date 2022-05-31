@@ -1,5 +1,7 @@
 # maven scope
 
+[maven依赖关系中的scope为provided使用详解](https://www.jb51.net/article/190965.htm)
+
 ## 1 compile
 
 默认的scope，表示 dependency 都可以在maven生命周期中使用。而且，这些dependencies 会传递到依赖的项目中。适用于所有阶段，会随着项目一起发布
