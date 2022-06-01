@@ -285,7 +285,13 @@ git merge --no-ff 禁用fast-forward(快进模式)表示普通合并，合并后
 git merge --no-ff -m "merge with no-ff" dev
 ![](media/4.png)
 
-### 5.1 stash
+### 5.1 查看分支创建时间
+
+`git reflog show --date=iso <branch name>`
+
+可以查看到指定分支的历次更改记录，最下面一条的时间即是分支创建时间。
+
+### 5.2 stash
 
 git stash         将当前分支的工作现场储藏起来
 
@@ -306,7 +312,7 @@ git checkout -b branch-name origin/branch-name
 
 本地没有某分支，在本地创建和远程分支对应的分支，使用这个，本地和远程分支的名称最好一致
 
-### 5.2 checkout切换分支
+### 5.3 checkout切换分支
 
 git checkout 当它是切换分支意义的时候，实质上是移动的HEAD指针。
 
