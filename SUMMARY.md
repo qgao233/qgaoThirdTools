@@ -14,3 +14,4 @@
 * [3 maven篇]()
   * [1 Maven生命周期和插件的详细介绍](chapter3/section1/index.md)
 * [4 Guice篇](https://qgao233.github.io/qgaoGuiceStudy/)
+* [5 正则篇](chapter5/index.md)

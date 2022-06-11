@@ -1,0 +1,1 @@
+![](media/regularExpression.png)
